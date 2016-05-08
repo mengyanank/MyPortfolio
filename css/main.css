@@ -1,0 +1,58 @@
+.html{ height: 100%; width: 100%; margin: 0; }
+.body { height: 100%; width: 100%; margin: 0; }
+.row{
+	 display: flex;
+	 width: 100%;
+}
+
+.name{
+	font-size: 150%;
+	text-transform: uppercase;
+	font-family: 'Indie Flower',cursive;
+}
+.mid_part{
+
+	height: 300px;
+}
+.col-2{
+	width: 8.33%;
+	padding: 5px;
+}
+.col-4{
+	width: 33.33%;
+	text-align: center:
+}
+.col-10{
+	text-align: right;
+	width: 91.66%;
+	padding: 5px;
+}
+.image{
+	width: 100%;
+	height: 100%;
+}
+.image_project{
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+.last_row{
+	height: 10px;
+}
+.image_project{
+	display:block;
+    margin:auto;
+	width: 70%;
+}
+.project_name{
+	text-align: center;
+}
+.projects{
+	font-family: 'Indie Flower',cursive;
+}
+.feature{
+	font-family: 'Indie Flower',cursive;
+	padding-top: 20px;
+    padding-bottom: 10px;
+	font-size: 120%
+}

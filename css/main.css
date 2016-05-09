@@ -1,5 +1,8 @@
-.html{ height: 100%; width: 100%; margin: 0; }
-.body { height: 100%; width: 100%; margin: 0; }
+<meta name="viewport" content="width=device-width, initial-scale=1">
+.grid-container{
+         
+        width: 100%;     
+}
 .row{
 	 display: flex;
 	 width: 100%;
@@ -10,9 +13,18 @@
 	text-transform: uppercase;
 	font-family: 'Indie Flower',cursive;
 }
+.projects{
+	font-family: 'Indie Flower',cursive;
+}
 .mid_part{
 
 	height: 300px;
+}
+.feature{
+	font-family: 'Indie Flower',cursive;
+	padding-top: 20px;
+    padding-bottom: 10px;
+	font-size: 120%
 }
 .col-2{
 	width: 8.33%;
@@ -31,14 +43,7 @@
 	width: 100%;
 	height: 100%;
 }
-.image_project{
-	margin: auto;
-	width: 100%;
-	height: 100%;
-}
-.last_row{
-	height: 10px;
-}
+
 .image_project{
 	display:block;
     margin:auto;
@@ -47,12 +52,4 @@
 .project_name{
 	text-align: center;
 }
-.projects{
-	font-family: 'Indie Flower',cursive;
-}
-.feature{
-	font-family: 'Indie Flower',cursive;
-	padding-top: 20px;
-    padding-bottom: 10px;
-	font-size: 120%
-}
+

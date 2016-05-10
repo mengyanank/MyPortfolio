@@ -1,55 +1,66 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
-.grid-container{
+
+.grid-container {
          
         width: 100%;     
 }
-.row{
+
+.row {
 	 display: flex;
 	 width: 100%;
 }
 
-.name{
-	font-size: 150%;
+.name {
+	
 	text-transform: uppercase;
 	font-family: 'Indie Flower',cursive;
 }
-.projects{
+
+.projects {
 	font-family: 'Indie Flower',cursive;
 }
-.mid_part{
 
+.mid_part {
+	
 	height: 300px;
 }
-.feature{
+
+.feature {
 	font-family: 'Indie Flower',cursive;
-	padding-top: 20px;
-    padding-bottom: 10px;
-	font-size: 120%
+	
 }
-.col-2{
+
+.col-2 {
 	width: 8.33%;
 	padding: 5px;
 }
-.col-4{
+
+.col-4 {
 	width: 33.33%;
 	text-align: center:
 }
-.col-10{
+
+.col-10 {
 	text-align: right;
 	width: 91.66%;
-	padding: 5px;
+	
 }
-.image{
+
+.col-12 {
+    width: 100%;
+}
+
+.image {
 	width: 100%;
 	height: 100%;
 }
 
-.image_project{
+.image_project {
 	display:block;
     margin:auto;
-	width: 70%;
+	width: 50%;
 }
-.project_name{
+
+.project_name {
 	text-align: center;
 }
 
